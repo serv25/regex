@@ -21,6 +21,10 @@ a{3,6} - количество повторений мин 3, мах 6 (для о
 (abc){,3} - - количество повторений (для нескольких символов) до 3 и менее
 (a|b) - a or b
 
+\w, matches any word character (alphanumeric & underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]	
+\d, matches any digit character (0-9). Equivalent to [0-9].
+\b, matches a word boundary position such as whitespace, punctuation, or the start/end of the string. This matches a position, not a character.	
+\B, matches any position that is not a word boundary. This matches a position, not a character.
 
 FIND AND REPLACE
 
